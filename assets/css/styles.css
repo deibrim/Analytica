@@ -285,7 +285,7 @@ header .src-area .src-btn {
   margin: auto;
 }
 .brand span {
-  font-size: large;
+  font-size: 17px;
 }
 .brand button {
   padding: 10px 30px;
@@ -354,7 +354,6 @@ header .src-area .src-btn {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(1, 210, 142, 0.2);
   position: relative;
   margin-top: 10px;
 }
