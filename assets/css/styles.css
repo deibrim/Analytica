@@ -45,7 +45,6 @@ h5,
 h6 {
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 2px;
 }
 
 p {
@@ -56,8 +55,9 @@ p {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   line-height: 1;
+  letter-spacing: 5px;
 }
 h2 {
   font-size: 2.8em;
@@ -124,8 +124,9 @@ header {
   padding: 70px 0 40px;
 }
 
-.section .heading {
+.heading {
   padding-bottom: 70px;
+  font-size: 26px;
 }
 
 .center-text {
@@ -290,9 +291,10 @@ header .src-area .src-btn {
 .brand span {
   font-size: 17px;
 }
-.brand button {
-  padding: 10px 30px;
-  font-size: 16px;
+.brand button,
+form button {
+  padding: 10px 35px !important;
+  font-size: 15px;
   margin-top: 25px;
 }
 .navbar-brand {
@@ -300,7 +302,7 @@ header .src-area .src-btn {
   font-weight: 600 !important;
 }
 .navbar-nav li a {
-  font-size: 13.9px !important;
+  font-size: 13px !important;
 }
 .heading {
   position: relative;
@@ -331,6 +333,7 @@ header .src-area .src-btn {
 
 .service {
   background: #f4f4f4;
+  border: 1px solid #f4f4f4;
   padding: 20px;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -338,8 +341,8 @@ header .src-area .src-btn {
   margin-bottom: 20px;
 }
 .service:hover {
-  -webkit-box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  background: white;
+  border-color: black;
 }
 .service .wrap-icon {
   margin-bottom: 30px;
@@ -546,10 +549,12 @@ header .src-area .src-btn {
   padding: 30px;
 }
 .btn-custom {
+  background: transparent;
   border: 2px solid #b8124a;
   color: #ea2c6d !important;
   padding: 10px 15px !important;
 }
+
 .load-more-btn {
   padding: 15px 40px;
   margin: 10px 0 30px;
